@@ -13,6 +13,7 @@ class program
             Console.WriteLine("3. Check if string is palindrome.");
             Console.WriteLine("4. Reverse word in sentence.");
             Console.WriteLine("5. Check if palindrome using while loop.");
+            Console.WriteLine("6. Find first from input string.");
 
             int choice = int.Parse(Console.ReadLine());
 
@@ -32,6 +33,9 @@ class program
                     break;
                 case 5:
                     StringIsPalindrome stringIsPalindrome = new StringIsPalindrome();
+                    break;
+                case 6:
+                    FirstCapitalInString firstCapitalInString = new FirstCapitalInString();
                     break;
                 default:
                     Console.WriteLine("Invalid input:");

@@ -12,7 +12,7 @@ namespace InterviewPreparationLogicalExamples
             string inputString = Console.ReadLine();
             string[] words = inputString.Split(' ');
             StringBuilder stringBuilder = new StringBuilder();            
-            for(int i =words.Length-1;  i >= 0; i--)
+            for(int i = words.Length-1;  i >= 0; i--)
             {
                 if (stringBuilder.Length > 0)
                     stringBuilder.Append(' ');
