@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="CSharpCore/CSharpLearningHubCore.csproj" />
+  <Project Path="CSharpLearningHub/CSharpLearningHub.csproj" />
+</Solution>
